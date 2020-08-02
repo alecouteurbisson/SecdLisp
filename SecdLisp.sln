@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecdLisp", "SecdLisp\SecdLisp.csproj", "{3FFFB761-509F-46B1-9CA3-683405B29832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{A2D1D238-5EED-4338-9E20-D2B16448BD16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecdVM", "SecdVM\SecdVM.csproj", "{31D700E8-FE0D-4BEA-916C-0F9BA607AF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBE2DACF-57EA-428E-8395-CF43C99FA39A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compilers", "Compilers", "{E041BC10-F80A-4E47-AF5A-49CB53E37D61}"
+	ProjectSection(SolutionItems) = preProject
+		Compilers\compiler1.secd = Compilers\compiler1.secd
+		Compilers\compiler10.lsp = Compilers\compiler10.lsp
+		Compilers\compiler10.secd = Compilers\compiler10.secd
+		Compilers\compiler2.lsp = Compilers\compiler2.lsp
+		Compilers\compiler2.secd = Compilers\compiler2.secd
+		Compilers\compiler3.lsp = Compilers\compiler3.lsp
+		Compilers\compiler3.secd = Compilers\compiler3.secd
+		Compilers\compiler4.lsp = Compilers\compiler4.lsp
+		Compilers\compiler4.secd = Compilers\compiler4.secd
+		Compilers\compiler5.lsp = Compilers\compiler5.lsp
+		Compilers\compiler5.secd = Compilers\compiler5.secd
+		Compilers\compiler6.lsp = Compilers\compiler6.lsp
+		Compilers\compiler6.secd = Compilers\compiler6.secd
+		Compilers\compiler7.lsp = Compilers\compiler7.lsp
+		Compilers\compiler7.secd = Compilers\compiler7.secd
+		Compilers\compiler8.lsp = Compilers\compiler8.lsp
+		Compilers\compiler8.secd = Compilers\compiler8.secd
+		Compilers\compiler9.lsp = Compilers\compiler9.lsp
+		Compilers\compiler9.secd = Compilers\compiler9.secd
+		Compilers\compilerbug.lsp = Compilers\compilerbug.lsp
+		Compilers\compilerbug.secd = Compilers\compilerbug.secd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFFB761-509F-46B1-9CA3-683405B29832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFFB761-509F-46B1-9CA3-683405B29832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFFB761-509F-46B1-9CA3-683405B29832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFFB761-509F-46B1-9CA3-683405B29832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D1D238-5EED-4338-9E20-D2B16448BD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D1D238-5EED-4338-9E20-D2B16448BD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D1D238-5EED-4338-9E20-D2B16448BD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D1D238-5EED-4338-9E20-D2B16448BD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D700E8-FE0D-4BEA-916C-0F9BA607AF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D700E8-FE0D-4BEA-916C-0F9BA607AF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D700E8-FE0D-4BEA-916C-0F9BA607AF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D700E8-FE0D-4BEA-916C-0F9BA607AF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E041BC10-F80A-4E47-AF5A-49CB53E37D61} = {BBE2DACF-57EA-428E-8395-CF43C99FA39A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F0BAAB5-88CD-486E-AB97-3295F9413857}
+	EndGlobalSection
+EndGlobal
